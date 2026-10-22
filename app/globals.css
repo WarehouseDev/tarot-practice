@@ -1,26 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap");
+
 @import "tailwindcss";
 
+/* ============================================================
+   TAILWIND V4 — CSS-FIRST CONFIG
+   Ovo zamenjuje tailwind.config.js. Prefiks --color-* automatski
+   generiše utility klase: bg-gold, text-gold, border-gold,
+   bg-ink, text-cream, itd. (uključujući /opacity varijante kao
+   što je text-gold/70 ili border-gold/30 — te rade automatski).
+   ============================================================ */
+@theme {
+  --color-gold: #c9a96e;
+  --color-ink: #0b0d14;
+  --color-cream: #e8e0d0;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-inter: "Inter", sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+html,
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #0b0d14;
+  color: #e8e0d0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::selection {
+  background-color: #c9a96e;
+  color: #0b0d14;
+}
+
+img {
+  max-width: 100%;
+}
+
+@layer utilities {
+  .divider-line {
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(201, 169, 110, 0.4),
+      transparent
+    );
+  }
+
+  .text-cream-dim {
+    color: rgba(232, 224, 208, 0.55);
+  }
+
+  @keyframes twinkle {
+    0%,
+    100% {
+      opacity: var(--op, 0.3);
+      transform: scale(1);
+    }
+    50% {
+      opacity: calc(var(--op, 0.3) * 2.5);
+      transform: scale(1.5);
+    }
+  }
+
+  .animate-twinkle {
+    animation: twinkle var(--d, 5s) ease-in-out infinite var(--delay, 0s);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
 }

@@ -1,0 +1,1385 @@
+[
+  {
+    "name": "Luda",
+    "number": 0,
+    "image_url": "/cards/0_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "početak",
+        "nevinost",
+        "spontanost",
+        "slobodan duh",
+        "skok vere"
+      ],
+      "reversed": [
+        "naivnost",
+        "glupost",
+        "nepromišljenost",
+        "rizik",
+        "držanje za prošlost"
+      ]
+    }
+  },
+  {
+    "name": "Mag",
+    "number": 1,
+    "image_url": "/cards/1_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "manifestacija",
+        "snalažljivost",
+        "moć",
+        "inspirisana akcija",
+        "veština"
+      ],
+      "reversed": [
+        "manipulacija",
+        "loše planiranje",
+        "neiskorišćeni talenti",
+        "prevara"
+      ]
+    }
+  },
+  {
+    "name": "Visoka Sveštenica",
+    "number": 2,
+    "image_url": "/cards/2_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "intuicija",
+        "više znanje",
+        "podsvest",
+        "potreba za povlačenjem",
+        "misterija"
+      ],
+      "reversed": [
+        "potisnuti instinkti",
+        "tajne",
+        "površnost",
+        "ignorisanje intuicije"
+      ]
+    }
+  },
+  {
+    "name": "Carica",
+    "number": 3,
+    "image_url": "/cards/3_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["plodnost", "ženstvenost", "lepota", "priroda", "izobilje"],
+      "reversed": [
+        "kreativna blokada",
+        "zavisnost",
+        "zanemarivanje sebe",
+        "gušenje"
+      ]
+    }
+  },
+  {
+    "name": "Car",
+    "number": 4,
+    "image_url": "/cards/4_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "autoritet",
+        "očinska figura",
+        "struktura",
+        "čvrst temelj",
+        "kontrola"
+      ],
+      "reversed": [
+        "dominacija",
+        "prekomerna kontrola",
+        "krutost",
+        "nedisciplina"
+      ]
+    }
+  },
+  {
+    "name": "Sveštenik",
+    "number": 5,
+    "image_url": "/cards/5_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "religija",
+        "grupni identitet",
+        "institucije",
+        "tradicija",
+        "verovanje"
+      ],
+      "reversed": [
+        "ograničavanje",
+        "izazivanje tradicije",
+        "sloboda",
+        "buntovništvo"
+      ]
+    }
+  },
+  {
+    "name": "Ljubavnici",
+    "number": 6,
+    "image_url": "/cards/6_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "ljubav",
+        "harmonija",
+        "partnerstvo",
+        "izbori",
+        "usklađenost vrednosti"
+      ],
+      "reversed": [
+        "disharmonija",
+        "nesklad",
+        "loš izbor",
+        "prekinuta komunikacija"
+      ]
+    }
+  },
+  {
+    "name": "Kočije",
+    "number": 7,
+    "image_url": "/cards/7_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["kontrola", "snaga volje", "pobeda", "odlučnost", "uspeh"],
+      "reversed": [
+        "nedostatak kontrole",
+        "gubitak pravca",
+        "agresija",
+        "prepreke"
+      ]
+    }
+  },
+  {
+    "name": "Snaga",
+    "number": 8,
+    "image_url": "/cards/8_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["snaga", "hrabrost", "saosećanje", "fokus", "strpljenje"],
+      "reversed": ["slabost", "sumnja u sebe", "nedostatak discipline", "bes"]
+    }
+  },
+  {
+    "name": "Pustinjak",
+    "number": 9,
+    "image_url": "/cards/9_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "introspekcija",
+        "potraga za dušom",
+        "samoća",
+        "unutrašnje vođstvo"
+      ],
+      "reversed": ["izolacija", "usamljenost", "povlačenje", "izgubljenost"]
+    }
+  },
+  {
+    "name": "Točak Sreće",
+    "number": 10,
+    "image_url": "/cards/10_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "sreća",
+        "karma",
+        "životni ciklusi",
+        "prekretnica",
+        "sudbina"
+      ],
+      "reversed": [
+        "loša sreća",
+        "otpor promeni",
+        "prekid ciklusa",
+        "spoljne sile"
+      ]
+    }
+  },
+  {
+    "name": "Pravda",
+    "number": 11,
+    "image_url": "/cards/11_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["pravda", "poštenje", "istina", "uzrok i posledica", "zakon"],
+      "reversed": [
+        "nepravda",
+        "neodgovornost",
+        "nepoštenje",
+        "izbegavanje istine"
+      ]
+    }
+  },
+  {
+    "name": "Obešeni Čovek",
+    "number": 12,
+    "image_url": "/cards/12_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "pauza",
+        "predaja",
+        "nova perspektiva",
+        "otpuštanje",
+        "žrtva"
+      ],
+      "reversed": ["zastoj", "otpor", "gubljenje vremena", "nepotrebna žrtva"]
+    }
+  },
+  {
+    "name": "Smrt",
+    "number": 13,
+    "image_url": "/cards/13_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "kraj",
+        "promena",
+        "transformacija",
+        "tranzicija",
+        "otpuštanje"
+      ],
+      "reversed": [
+        "otpor promeni",
+        "zastoj",
+        "strah od nepoznatog",
+        "držanje za prošlost"
+      ]
+    }
+  },
+  {
+    "name": "Umerenost",
+    "number": 14,
+    "image_url": "/cards/14_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "balans",
+        "strpljenje",
+        "umerenost",
+        "pronalaženje sredine",
+        "mir"
+      ],
+      "reversed": ["neravnoteža", "ekstremi", "nesklad", "nestrpljenje"]
+    }
+  },
+  {
+    "name": "Đavo",
+    "number": 15,
+    "image_url": "/cards/15_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "ropstvo",
+        "zavisnost",
+        "materijalizam",
+        "negativni obrasci",
+        "neznanje"
+      ],
+      "reversed": [
+        "oslobađanje",
+        "nezavisnost",
+        "prekidanje lanaca",
+        "suočavanje sa senkom"
+      ]
+    }
+  },
+  {
+    "name": "Kula",
+    "number": 16,
+    "image_url": "/cards/16_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "iznenadna promena",
+        "haos",
+        "uništenje",
+        "otkrovenje",
+        "buđenje"
+      ],
+      "reversed": [
+        "izbegavanje katastrofe",
+        "strah od promene",
+        "držanje za lažna uverenja"
+      ]
+    }
+  },
+  {
+    "name": "Zvezda",
+    "number": 17,
+    "image_url": "/cards/17_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["nada", "vera", "svrha", "obnova", "duhovnost"],
+      "reversed": ["očaj", "gubitak vere", "nepovezanost", "pesimizam"]
+    }
+  },
+  {
+    "name": "Mesec",
+    "number": 18,
+    "image_url": "/cards/18_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["iluzija", "strah", "anksioznost", "podsvest", "intuicija"],
+      "reversed": [
+        "otpuštanje straha",
+        "razjašnjenje",
+        "istina",
+        "prevazilaženje anksioznosti"
+      ]
+    }
+  },
+  {
+    "name": "Sunce",
+    "number": 19,
+    "image_url": "/cards/19_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": ["uspeh", "pozitivnost", "toplina", "vitalnost", "radost"],
+      "reversed": [
+        "privremeni neuspeh",
+        "nedostatak entuzijazma",
+        "pesimizam",
+        "blokirana sreća"
+      ]
+    }
+  },
+  {
+    "name": "Sud",
+    "number": 20,
+    "image_url": "/cards/20_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "presuda",
+        "ponovno rođenje",
+        "unutrašnji poziv",
+        "oslobađanje",
+        "oprost"
+      ],
+      "reversed": [
+        "samo-sumnja",
+        "ignorisanje poziva",
+        "kritika",
+        "osuđivanje sebe"
+      ]
+    }
+  },
+  {
+    "name": "Svet",
+    "number": 21,
+    "image_url": "/cards/21_major.png",
+    "arcana": "Velika Arkana",
+    "keywords": {
+      "upright": [
+        "završetak",
+        "integracija",
+        "postignuće",
+        "ispunjenje",
+        "putovanje"
+      ],
+      "reversed": ["nezavršenost", "nedostatak zatvaranja", "prečice", "zastoj"]
+    }
+  },
+  {
+    "name": "As Štapova",
+    "number": 22,
+    "image_url": "/cards/1_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "inspiracija",
+        "nova prilika",
+        "rast",
+        "potencijal",
+        "kreativnost"
+      ],
+      "reversed": [
+        "nedostatak motivacije",
+        "kašnjenja",
+        "kreativna blokada",
+        "lažni početak"
+      ]
+    }
+  },
+  {
+    "name": "Dvojka Štapova",
+    "number": 23,
+    "image_url": "/cards/2_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "buduće planiranje",
+        "napredak",
+        "odluke",
+        "napuštanje zone komfora"
+      ],
+      "reversed": [
+        "strah od nepoznatog",
+        "nedostatak planiranja",
+        "zadržavanje",
+        "loš izbor"
+      ]
+    }
+  },
+  {
+    "name": "Trojka Štapova",
+    "number": 24,
+    "image_url": "/cards/3_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["širenje", "predviđanje", "prekomorske prilike", "rast"],
+      "reversed": ["kašnjenja", "frustracija", "vraćanje na staro", "prepreke"]
+    }
+  },
+  {
+    "name": "Četvorka Štapova",
+    "number": 25,
+    "image_url": "/cards/4_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["proslava", "harmonija", "brak", "dom", "zajednica"],
+      "reversed": [
+        "prekid",
+        "nestabilnost",
+        "disharmonija u kući",
+        "tranzicija"
+      ]
+    }
+  },
+  {
+    "name": "Petica Štapova",
+    "number": 26,
+    "image_url": "/cards/5_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "konflikt",
+        "takmičenje",
+        "neslaganje",
+        "tenzija",
+        "različitost"
+      ],
+      "reversed": [
+        "izbegavanje konflikta",
+        "dogovor",
+        "kompromis",
+        "unutrašnji sukob"
+      ]
+    }
+  },
+  {
+    "name": "Šestica Štapova",
+    "number": 27,
+    "image_url": "/cards/6_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "javno priznanje",
+        "pobeda",
+        "uspeh",
+        "napredak",
+        "samopouzdanje"
+      ],
+      "reversed": [
+        "neuspeh",
+        "nedostatak priznanja",
+        "sumnja u sebe",
+        "gubitak"
+      ]
+    }
+  },
+  {
+    "name": "Sedmica Štapova",
+    "number": 28,
+    "image_url": "/cards/7_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["izazov", "takmičenje", "odbrana", "upornost", "zaštita"],
+      "reversed": [
+        "odustajanje",
+        "preopterećenost",
+        "popuštanje",
+        "iscrpljenost"
+      ]
+    }
+  },
+  {
+    "name": "Osmica Štapova",
+    "number": 29,
+    "image_url": "/cards/8_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "brzina",
+        "akcija",
+        "putovanje avionom",
+        "brze promene",
+        "kretanje"
+      ],
+      "reversed": ["kašnjenja", "frustracija", "usporavanje", "otpor promeni"]
+    }
+  },
+  {
+    "name": "Devetka Štapova",
+    "number": 30,
+    "image_url": "/cards/9_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "otpornost",
+        "hrabrost",
+        "poslednja borba",
+        "upornost",
+        "granice"
+      ],
+      "reversed": ["iscrpljenost", "paranoja", "predaja", "odbrambeni stav"]
+    }
+  },
+  {
+    "name": "Desetka Štapova",
+    "number": 31,
+    "image_url": "/cards/10_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["teret", "odgovornost", "težak rad", "stres", "postignuće"],
+      "reversed": [
+        "otpuštanje tereta",
+        "delegiranje",
+        "preopterećenost",
+        "izbegavanje"
+      ]
+    }
+  },
+  {
+    "name": "Paž Štapova",
+    "number": 32,
+    "image_url": "/cards/11_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "entuzijazam",
+        "istraživanje",
+        "otkriće",
+        "slobodan duh",
+        "nove ideje"
+      ],
+      "reversed": [
+        "nedostatak pravca",
+        "prokrastinacija",
+        "kreativna blokada",
+        "loše vesti"
+      ]
+    }
+  },
+  {
+    "name": "Vitez Štapova",
+    "number": 33,
+    "image_url": "/cards/12_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["energija", "strast", "avantura", "impulsivnost", "kretanje"],
+      "reversed": [
+        "kašnjenja",
+        "frustracija",
+        "nepromišljenost",
+        "gubitak energije"
+      ]
+    }
+  },
+  {
+    "name": "Kraljica Štapova",
+    "number": 34,
+    "image_url": "/cards/13_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "hrabrost",
+        "samopouzdanje",
+        "nezavisnost",
+        "društvenost",
+        "odlučnost"
+      ],
+      "reversed": [
+        "samo-sumnja",
+        "ljubomora",
+        "zahtevnost",
+        "blokirana kreativnost"
+      ]
+    }
+  },
+  {
+    "name": "Kralj Štapova",
+    "number": 35,
+    "image_url": "/cards/14_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "prirodni vođa",
+        "vizija",
+        "preduzetništvo",
+        "čast",
+        "inspiracija"
+      ],
+      "reversed": [
+        "impulsivnost",
+        "žurba",
+        "nedostatak pravca",
+        "visoka očekivanja"
+      ]
+    }
+  },
+  {
+    "name": "As Pehara",
+    "number": 36,
+    "image_url": "/cards/15_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "ljubav",
+        "nove veze",
+        "saosećanje",
+        "kreativnost",
+        "emocije"
+      ],
+      "reversed": [
+        "blokirane emocije",
+        "povlačenje u sebe",
+        "tuga",
+        "neuslišena ljubav"
+      ]
+    }
+  },
+  {
+    "name": "Dvojka Pehara",
+    "number": 37,
+    "image_url": "/cards/16_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "jedinstvo",
+        "partnerstvo",
+        "uzajamna privlačnost",
+        "veza",
+        "pomirenje"
+      ],
+      "reversed": ["raskid", "disharmonija", "nesklad", "nepoverenje"]
+    }
+  },
+  {
+    "name": "Trojka Pehara",
+    "number": 38,
+    "image_url": "/cards/17_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "proslava",
+        "prijateljstvo",
+        "kreativnost",
+        "zajednica",
+        "saradnja"
+      ],
+      "reversed": ["afera", "tračarenje", "izolacija", "prekomerno uživanje"]
+    }
+  },
+  {
+    "name": "Četvorka Pehara",
+    "number": 39,
+    "image_url": "/cards/18_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "meditacija",
+        "kontemplacija",
+        "apatija",
+        "preispitivanje",
+        "nezadovoljstvo"
+      ],
+      "reversed": ["povlačenje", "izbegavanje", "propustiti priliku", "dosada"]
+    }
+  },
+  {
+    "name": "Petica Pehara",
+    "number": 40,
+    "image_url": "/cards/19_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["gubitak", "žaljenje", "razočarenje", "tuga", "pesimizam"],
+      "reversed": [
+        "prihvatanje",
+        "opraštanje",
+        "nastavak dalje",
+        "pronalaženje mira"
+      ]
+    }
+  },
+  {
+    "name": "Šestica Pehara",
+    "number": 41,
+    "image_url": "/cards/20_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "ponovno okupljanje",
+        "nostalgija",
+        "sećanja iz detinjstva",
+        "nevinost"
+      ],
+      "reversed": [
+        "zaglavljenost u prošlosti",
+        "naivnost",
+        "nerealna očekivanja"
+      ]
+    }
+  },
+  {
+    "name": "Sedmica Pehara",
+    "number": 42,
+    "image_url": "/cards/21_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["prilike", "izbori", "maštanje", "iluzija", "želje"],
+      "reversed": [
+        "iskušenje",
+        "nerealne ideje",
+        "zbunjensot",
+        "nedostatak svrhe"
+      ]
+    }
+  },
+  {
+    "name": "Osmica Pehara",
+    "number": 43,
+    "image_url": "/cards/22_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "napuštanje",
+        "povlačenje",
+        "razočarenje",
+        "potraga za istinom"
+      ],
+      "reversed": [
+        "zadržavanje",
+        "strah od promene",
+        "vraćanje",
+        "nezadovoljstvo"
+      ]
+    }
+  },
+  {
+    "name": "Devetka Pehara",
+    "number": 44,
+    "image_url": "/cards/23_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "ispunjenje želja",
+        "zadovoljstvo",
+        "uspeh",
+        "sreća",
+        "zadovoljstvo"
+      ],
+      "reversed": [
+        "neispunjene želje",
+        "razočarenje",
+        "materijalizam",
+        "pohlepa"
+      ]
+    }
+  },
+  {
+    "name": "Desetka Pehara",
+    "number": 45,
+    "image_url": "/cards/24_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "božanska ljubav",
+        "blažena veza",
+        "harmonija",
+        "porodica",
+        "dom"
+      ],
+      "reversed": [
+        "prekinuta veza",
+        "disharmonija",
+        "zanemarena porodica",
+        "neuspeh"
+      ]
+    }
+  },
+  {
+    "name": "Paž Pehara",
+    "number": 46,
+    "image_url": "/cards/25_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "kreativne prilike",
+        "intuitivne poruke",
+        "radoznalost",
+        "mogućnosti"
+      ],
+      "reversed": [
+        "kreativna blokada",
+        "emocionalna nezrelost",
+        "sumnja u sebe"
+      ]
+    }
+  },
+  {
+    "name": "Vitez Pehara",
+    "number": 47,
+    "image_url": "/cards/26_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["romansa", "šarm", "mašta", "lepota", "praćenje srca"],
+      "reversed": [
+        "nerealnost",
+        "ljubomora",
+        "promenljivo raspoloženje",
+        "razočarenje"
+      ]
+    }
+  },
+  {
+    "name": "Kraljica Pehara",
+    "number": 48,
+    "image_url": "/cards/27_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["saosećajna", "brižna", "intuitivna", "mirna", "isceljujuća"],
+      "reversed": [
+        "emocionalna nesigurnost",
+        "preosetljivost",
+        "zavisnost",
+        "unutrašnji konflikt"
+      ]
+    }
+  },
+  {
+    "name": "Kralj Pehara",
+    "number": 49,
+    "image_url": "/cards/28_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "emocionalno uravnotežen",
+        "saosećajan",
+        "diplomatski",
+        "kontrolisan"
+      ],
+      "reversed": [
+        "emocionalna manipulacija",
+        "promenljivo raspoloženje",
+        "zavisnost",
+        "hladnoća"
+      ]
+    }
+  },
+  {
+    "name": "As Mačeva",
+    "number": 50,
+    "image_url": "/cards/29_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["proboj", "jasnoća", "oštar um", "istina", "uspeh"],
+      "reversed": [
+        "konfuzija",
+        "zabluda",
+        "loša komunikacija",
+        "destruktivne misli"
+      ]
+    }
+  },
+  {
+    "name": "Dvojka Mačeva",
+    "number": 51,
+    "image_url": "/cards/30_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "teška odluka",
+        "blokada",
+        "primirje",
+        "izbegavanje",
+        "neodlučnost"
+      ],
+      "reversed": [
+        "konfuzija",
+        "neodlučnost",
+        "informaciono preopterećenje",
+        "zastoj"
+      ]
+    }
+  },
+  {
+    "name": "Trojka Mačeva",
+    "number": 52,
+    "image_url": "/cards/31_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "slomljeno srce",
+        "emocionalni bol",
+        "tuga",
+        "gubitak",
+        "razdvajanje"
+      ],
+      "reversed": [
+        "oporavak",
+        "opraštanje",
+        "prevazilaženje tuge",
+        "otpuštanje bola"
+      ]
+    }
+  },
+  {
+    "name": "Četvorka Mačeva",
+    "number": 53,
+    "image_url": "/cards/32_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["odmor", "oporavak", "meditacija", "kontemplacija", "mir"],
+      "reversed": ["iscrpljenost", "izgaranje", "zastoj", "mentalni slom"]
+    }
+  },
+  {
+    "name": "Petica Mačeva",
+    "number": 54,
+    "image_url": "/cards/33_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "konflikt",
+        "poraz",
+        "pobeda po svaku cenu",
+        "izdaja",
+        "gubitak"
+      ],
+      "reversed": ["pomirenje", "opraštanje", "pregovaranje", "žaljenje"]
+    }
+  },
+  {
+    "name": "Šestica Mačeva",
+    "number": 55,
+    "image_url": "/cards/34_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "tranzicija",
+        "napuštanje",
+        "ritual prolaska",
+        "putovanje",
+        "promena"
+      ],
+      "reversed": ["zastoj", "otpor promeni", "nezavršeni poslovi", "teret"]
+    }
+  },
+  {
+    "name": "Sedmica Mačeva",
+    "number": 56,
+    "image_url": "/cards/35_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["izdaja", "prevara", "lukavstvo", "strategija", "bekstvo"],
+      "reversed": ["priznanje", "suočavanje", "čišćenje savesti", "povratak"]
+    }
+  },
+  {
+    "name": "Osmica Mačeva",
+    "number": 57,
+    "image_url": "/cards/36_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "izolacija",
+        "samo-nametnuta ograničenja",
+        "bespomoćnost",
+        "verovanje u žrtvu"
+      ],
+      "reversed": [
+        "oslobađanje",
+        "nova perspektiva",
+        "preuzimanje kontrole",
+        "prevazilaženje"
+      ]
+    }
+  },
+  {
+    "name": "Devetka Mačeva",
+    "number": 58,
+    "image_url": "/cards/37_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["anksioznost", "briga", "strah", "depresija", "noćne more"],
+      "reversed": [
+        "nada",
+        "prevazilaženje straha",
+        "traženje pomoći",
+        "oslobađanje od briga"
+      ]
+    }
+  },
+  {
+    "name": "Desetka Mačeva",
+    "number": 59,
+    "image_url": "/cards/38_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["bolan kraj", "izdaja", "gubitak", "dno", "kriza"],
+      "reversed": ["oporavak", "regeneracija", "otpor", "preživljavanje"]
+    }
+  },
+  {
+    "name": "Paž Mačeva",
+    "number": 60,
+    "image_url": "/cards/39_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "nove ideje",
+        "radoznalost",
+        "potraga za istinom",
+        "energija",
+        "komunikacija"
+      ],
+      "reversed": [
+        "tračarenje",
+        "obmanjujuće reči",
+        "nedostatak planiranja",
+        "laži"
+      ]
+    }
+  },
+  {
+    "name": "Vitez Mačeva",
+    "number": 61,
+    "image_url": "/cards/40_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "ambicija",
+        "akcija",
+        "brzina",
+        "odlučnost",
+        "mentalna jasnoća"
+      ],
+      "reversed": [
+        "nepromišljenost",
+        "impulsivnost",
+        "agresija",
+        "nedostatak fokusa"
+      ]
+    }
+  },
+  {
+    "name": "Kraljica Mačeva",
+    "number": 62,
+    "image_url": "/cards/41_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "nezavisna",
+        "jasna granica",
+        "direktna komunikacija",
+        "inteligencija"
+      ],
+      "reversed": ["prekomerno emocionalna", "ogorčena", "okrutna", "hladna"]
+    }
+  },
+  {
+    "name": "Kralj Mačeva",
+    "number": 63,
+    "image_url": "/cards/42_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "mentalna jasnoća",
+        "intelektualna moć",
+        "autoritet",
+        "istina",
+        "logika"
+      ],
+      "reversed": ["manipulacija", "tiranija", "okrutnost", "zloupotreba moći"]
+    }
+  },
+  {
+    "name": "As Pentakla",
+    "number": 64,
+    "image_url": "/cards/43_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "nova finansijska prilika",
+        "manifestacija",
+        "prosperitet",
+        "izobilje"
+      ],
+      "reversed": [
+        "izgubljena prilika",
+        "loše ulaganje",
+        "pohlepa",
+        "nedostatak planiranja"
+      ]
+    }
+  },
+  {
+    "name": "Dvojka Pentakla",
+    "number": 65,
+    "image_url": "/cards/44_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "balansiranje",
+        "prilagodljivost",
+        "upravljanje vremenom",
+        "prioriteti"
+      ],
+      "reversed": [
+        "gubitak balansa",
+        "preopterećenost",
+        "loše upravljanje",
+        "haos"
+      ]
+    }
+  },
+  {
+    "name": "Trojka Pentakla",
+    "number": 66,
+    "image_url": "/cards/45_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "timski rad",
+        "saradnja",
+        "učenje",
+        "implementacija",
+        "kvalitet"
+      ],
+      "reversed": [
+        "nedostatak timskog rada",
+        "loš kvalitet",
+        "sukob",
+        "nedostatak veština"
+      ]
+    }
+  },
+  {
+    "name": "Četvorka Pentakla",
+    "number": 67,
+    "image_url": "/cards/46_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "štednja",
+        "sigurnost",
+        "konzervativizam",
+        "kontrola",
+        "posesivnost"
+      ],
+      "reversed": ["pohlepa", "materijalizam", "strah od gubitka", "otpuštanje"]
+    }
+  },
+  {
+    "name": "Petica Pentakla",
+    "number": 68,
+    "image_url": "/cards/47_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "finansijski gubitak",
+        "siromaštvo",
+        "izolacija",
+        "briga",
+        "nesigurnost"
+      ],
+      "reversed": [
+        "oporavak",
+        "pronalaženje pomoći",
+        "pozitivne promene",
+        "nada"
+      ]
+    }
+  },
+  {
+    "name": "Šestica Pentakla",
+    "number": 69,
+    "image_url": "/cards/48_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "davanje",
+        "primanje",
+        "velikodušnost",
+        "dobročinstvo",
+        "prosperitet"
+      ],
+      "reversed": ["dug", "pohlepa", "sebičnost", "iskorišćavanje"]
+    }
+  },
+  {
+    "name": "Sedmica Pentakla",
+    "number": 70,
+    "image_url": "/cards/49_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "strpljenje",
+        "ulaganje",
+        "održivi rezultati",
+        "žetva",
+        "vizija"
+      ],
+      "reversed": [
+        "nestrpljenje",
+        "loše ulaganje",
+        "nedostatak vizije",
+        "frustracija"
+      ]
+    }
+  },
+  {
+    "name": "Osmica Pentakla",
+    "number": 71,
+    "image_url": "/cards/50_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "majstorstvo",
+        "veština",
+        "učenje",
+        "posvećenost",
+        "kvalitet"
+      ],
+      "reversed": [
+        "perfekcionizam",
+        "nedostatak ambicije",
+        "loš kvalitet",
+        "ponavljanje grešaka"
+      ]
+    }
+  },
+  {
+    "name": "Devetka Pentakla",
+    "number": 72,
+    "image_url": "/cards/51_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "izobilje",
+        "luksuz",
+        "samostalnost",
+        "finansijska nezavisnost",
+        "uživanje"
+      ],
+      "reversed": [
+        "finansijska zavisnost",
+        "prekomerno trošenje",
+        "praznina",
+        "neuspeh"
+      ]
+    }
+  },
+  {
+    "name": "Desetka Pentakla",
+    "number": 73,
+    "image_url": "/cards/52_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "bogatstvo",
+        "nasleđe",
+        "porodica",
+        "dugoročni uspeh",
+        "temelji"
+      ],
+      "reversed": [
+        "finansijski neuspeh",
+        "gubitak",
+        "porodični sukob",
+        "nestabilnost"
+      ]
+    }
+  },
+  {
+    "name": "Paž Pentakla",
+    "number": 74,
+    "image_url": "/cards/53_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "manifestacija",
+        "finansijska prilika",
+        "učenje",
+        "nove veštine"
+      ],
+      "reversed": [
+        "nedostatak napretka",
+        "prokrastinacija",
+        "loše vesti",
+        "lenjost"
+      ]
+    }
+  },
+  {
+    "name": "Vitez Pentakla",
+    "number": 75,
+    "image_url": "/cards/54_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "efikasnost",
+        "rutina",
+        "konzervativizam",
+        "marljivost",
+        "pouzdanost"
+      ],
+      "reversed": ["lenjost", "dosada", "nedostatak inicijative", "zastoj"]
+    }
+  },
+  {
+    "name": "Kraljica Pentakla",
+    "number": 76,
+    "image_url": "/cards/55_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": [
+        "brižna",
+        "praktična",
+        "domaća",
+        "finansijski sigurna",
+        "prizemljena"
+      ],
+      "reversed": [
+        "zanemarivanje doma",
+        "finansijska zavisnost",
+        "preopterećenost",
+        "nered"
+      ]
+    }
+  },
+  {
+    "name": "Kralj Pentakla",
+    "number": 77,
+    "image_url": "/cards/56_minor.png",
+    "arcana": "Mala Arkana",
+    "keywords": {
+      "upright": ["izobilje", "sigurnost", "disciplina", "liderstvo", "uspeh"],
+      "reversed": [
+        "pohlepa",
+        "materijalizam",
+        "tvrdoglavost",
+        "loše upravljanje"
+      ]
+    }
+  }
+]
