@@ -44,21 +44,12 @@ export default function HomePage() {
   const [error, setError] = useState(null);
   // Stanje za pitanje korisnika
   const [question, setQuestion] = useState("");
+  // Stanje za ime korisnika
+  const [name, setName] = useState("");
   // Stanje za tip otvaranja
   const [spreadType, setSpreadType] = useState(null);
   // Stanje za animaciju okretanja karata
   const [isFlipped, setIsFlipped] = useState(false);
-
-  // Lista dostupnih jezika
-  const languages = [
-    "Srpski",
-    "Hrvatski",
-    "Bosanski",
-    "Македонски",
-    "Slovenščina",
-    "English",
-    "Russian",
-  ];
 
   // Broj karata po metodi otvaranja
   const SPREAD_COUNTS = {
@@ -151,21 +142,17 @@ export default function HomePage() {
                     </label>
                     <div className="mb-3">
                       <label
-                        htmlFor="language-picker"
+                        htmlFor="name-picker"
                         className="text-[11px] uppercase tracking-[0.2em] text-gold/70"
                       >
-                        Jezik
+                        Ime
                       </label>
-                      <select
-                        id="language-picker"
-                        className="rounded-xl text-[11px] border ml-2 p-1 transition-all duration-300 border-gold/60 -translate-y-0.5 bg-ink text-cream/50 placeholder:text-cream/20 outline-none"
-                      >
-                        {languages.map((lang) => (
-                          <option key={lang} value={lang}>
-                            {lang}
-                          </option>
-                        ))}
-                      </select>
+                      <input
+                        id="name-picker"
+                        className="rounded-md text-[11px] border ml-2 p-1 transition-all duration-300 border-gold/60 -translate-y-0.5 bg-ink text-cream/50 placeholder:text-cream/20 outline-none"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                      />
                     </div>
                   </div>
                   <textarea
@@ -241,7 +228,7 @@ export default function HomePage() {
               {question && (
                 <div className="mb-8 pb-6 text-center">
                   <h4 className="text-[10px] uppercase font-sans text-cream/50 mb-2 tracking-[0.3em]">
-                    Tvoje Pitanje:
+                    {name ? `${name} pita:` : `Tvoje Pitanje:`}
                   </h4>
                   <p className="text-2xl italic text-cream font-serif leading-relaxed">
                     &quot;{question}&quot;
@@ -281,7 +268,10 @@ export default function HomePage() {
                       spreadType === "celtic-cross" ? "absolute " : null
                     }`}
                   >
-                    <div className="perspective-[1000px] w-32 md:w-36 lg:w-54 h-50 md:h-56 lg:h-84">
+                    <div
+                      className={`perspective-[1000px]  md:w-36 lg:w-54  md:h-56 lg:h-84
+                      ${spreadType === "single" ? "w-54 h-84" : spreadType === "three-card" ? "w-36 h-56" : "w-32 h-50"}`}
+                    >
                       <div
                         className={`relative w-full h-full transition-transform duration-1000 [transform-style:preserve-3d] ${
                           isFlipped ? "[transform:rotateY(180deg)]" : ""
@@ -356,6 +346,7 @@ export default function HomePage() {
                     setOpeningCards(false);
                     setError(null);
                     setQuestion("");
+                    setName("");
                     setSpreadType(null);
                   }}
                   className="inline-block bg-transparent border border-gold/60 text-gold mt-1 mb-8  px-12 py-3.5 font-serif text-[17px] tracking-[0.12em] uppercase rounded-sm transition-all duration-300 hover:bg-gold/10 hover:border-gold hover:shadow-[0_0_40px_rgba(201,169,110,0.15)] cursor-pointer"
