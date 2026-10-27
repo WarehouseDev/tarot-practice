@@ -155,6 +155,7 @@ export default function HomePage() {
                       />
                     </div>
                   </div>
+                  {/* pitanje */}
                   <textarea
                     id="tarot-question"
                     rows={3}
