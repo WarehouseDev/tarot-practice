@@ -248,7 +248,6 @@ export default function HomePage() {
                 }`}
               >
                 {selectedCards.map((card, index) => (
-                  // Koristimo card.name kao ključ jer je jedinstven
                   <div
                     key={card.name}
                     style={
